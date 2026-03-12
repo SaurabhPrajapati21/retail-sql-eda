@@ -14,6 +14,54 @@ This project performs Exploratory Data Analysis (EDA) on a retail transaction da
 
 
 
+\## Project Structure
+
+
+
+```
+
+retail-sql-eda
+
+│
+
+├── dataset
+
+│   └── retail\_transactions.csv
+
+│
+
+├── sql
+
+│   ├── 01\_create\_database.sql
+
+│   ├── 02\_data\_cleaning.sql
+
+│   └── 03\_analysis.sql
+
+│
+
+└── README.md
+
+```
+
+
+
+This repository contains:
+
+
+
+\* \*\*dataset/\*\* → raw dataset used for analysis
+
+\* \*\*sql/\*\* → SQL scripts for database creation, data cleaning, and analysis
+
+\* \*\*README.md\*\* → project documentation
+
+
+
+\---
+
+
+
 \## Dataset
 
 
@@ -26,7 +74,33 @@ The dataset contains \*\*2000 retail transactions\*\* from multiple stores inclu
 
 
 
-StoreID, Location, Product, Quantity, UnitPrice, PaymentType, TransactionID, Cashier, StoreManager, TimeOfDay, DayOfWeek, TotalPrice, Date, Time
+\* StoreID
+
+\* Location
+
+\* Product
+
+\* Quantity
+
+\* UnitPrice
+
+\* PaymentType
+
+\* TransactionID
+
+\* Cashier
+
+\* StoreManager
+
+\* TimeOfDay
+
+\* DayOfWeek
+
+\* TotalPrice
+
+\* Date
+
+\* Time
 
 
 
